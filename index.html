@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClaruswaySurveyForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <h1 class="title">Clarusway Survey Form</h1>
+        <p class="description">Thank you for the taking time to help us to improve the platform</p>
+        <form id="Clarusway" action="result.html" target="_blank">
+            <div class="box">
+                <label for="name" id="label-name">Name</label><br> <br>
+                <input type="text" name="Name" id="name" placeholder="name"  required>
+            </div>
+            <div class="box">
+                <label for="surname" id="label-surname">Surname</label><br> <br>
+                <input type="text" name="Surname" id="surname" placeholder="Surname" required>
+            </div>
+            <div class="box">
+                <label for="email" id="label-email">Email</label><br> <br>
+                <input type="email" name="Email" id="email" placeholder="Email" required>
+            </div>
+            <div class="box">
+                <label for="dropdown1" id="label-dropdown1">Which option best describes your current role?</label><br> <br>
+                <select name="Current-Role" id="dropdown1">
+                    <option value="disabled selected value" selected>Select Current Role</option>
+                    <option value="student">Student</option>
+                    <option value="manager" value="teacher">Teacher</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="part-time-job">Part Time Job</option>
+                    <option value="full-time-learner">Full Time Learner</option>
+                    <option value="perefer-not-to say">Prefer Not To Say</option>
+                </select>
+
+            </div>
+            <div class="box">
+                <label for="radio" id="label-radio">Would you recommend Clarusway to a friend?</label><br> <br>
+                <input type="radio" name="Recommend" id="radio" value="Yes">Definataly,Yes <br> <br>
+                <input type="radio" name="Recommend" id="radio" value="Maybe">Maybe <br> <br>
+                <input type="radio" name="Recommend" id="radio" value="Not sure">Not Sure <br> <br>
+                <input type="radio" name="Recommend" id="radio" value="No">Definetaly,No <br> <br>
+            </div>
+            <div class="box">
+                <label for="dropdown2" id="label-dropdown2">What is your favorite feature of Clarusway ?</label><br> <br>
+               <select name="Best Feature of Clarusway" id="dropdown2">
+                   <option value="courses">courses</option> <br>
+                   <option value="projects" selected>projects</option><br>
+                   <option value="comminity">community</option><br>
+                   <option value="mentors">mentors</option><br>
+               </select>
+            </div>
+            <div class="box">
+                <label for="checkbox" id="label-checkbox">What would you like to see improved?(Check all the apply)</label><br> <br>
+                <input type="checkbox" name="Front-End Projects" id="checkbox">Front-End Projects<br> <br>
+                <input type="checkbox" name="Back-End Projects" id="checkbox">Back-End Projects<br> <br>
+                <input type="checkbox" name="Data Secience" id="checkbox">Data Secience <br> <br>
+                <input type="checkbox" name="Additional Courses" id="checkbox">Additional Courses<br> <br>
+            </div>
+            <div class="box">
+                <label for="comments" id="label-comments">Any comments or suggestions?</label><br> <br>
+                <textarea name="Comments" id="comments" cols="30" rows="3" placeholder="Enter your comments here.Thanks for your comments"></textarea>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

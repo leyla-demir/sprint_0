@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box{
+    margin: 10px;
+}
+#name,
+#surname,
+#email,
+#comments{
+    width: 15%;
+}
+
+#label-name,
+#label-surname,
+#label-email,
+#label-dropdown1,
+#label-radio,
+#label-dropdown2,
+#label-checkbox,
+#label-comments {
+}
